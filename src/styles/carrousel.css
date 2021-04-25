@@ -1,0 +1,12 @@
+.swiper-button-next { color: #FFBA08 !important; }
+.swiper-button-prev { color: #FFBA08 !important; }
+.swiper-pagination-bullet{ background-color:  #999999 !important; opacity: 1.0 !important; }
+.swiper-pagination-bullet-active{ background-color: #FFBA08 !important; }
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 32px !important; 
+}
+
+.swiper-button-prev, .swiper-button-next{
+    width: calc(var(--swiper-navigation-size) / 44 * 75) !important;
+}
