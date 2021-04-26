@@ -18,9 +18,9 @@ export default function Home() {
       <Banner />
       <TravelTypes />
       <Divider variant="solid" bg="#47585B" w="90px" h="2px" m="auto"/>
-      <Box as="main" p="20">
-        <Center mb="20">
-          <Heading textAlign="center">
+      <Box as="main" px={["0", "20"]} py={["5", "20"]}>
+        <Center mb={["5", "20"]}>
+          <Heading textAlign="center" fontSize={["20", "36"]}>
             Vamos nessa? <br></br>Então escolha seu continente
           </Heading>
         </Center>
