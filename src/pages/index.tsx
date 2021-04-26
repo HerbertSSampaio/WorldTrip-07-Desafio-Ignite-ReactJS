@@ -34,7 +34,7 @@ export default function Home() {
       onSlideChange={() => console.log('slide change')}
       >
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" w="100" height="450">
+        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
                 Europa
@@ -46,7 +46,7 @@ export default function Home() {
         </Center>
       </SwiperSlide>
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" w="100" height="450">
+        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
                 Europa
@@ -58,7 +58,7 @@ export default function Home() {
         </Center>
       </SwiperSlide>
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" w="100" height="450">
+        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
                 Europa
@@ -70,7 +70,7 @@ export default function Home() {
         </Center>
       </SwiperSlide>
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" w="100" height="450">
+        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
                 Europa
@@ -82,7 +82,7 @@ export default function Home() {
         </Center>
       </SwiperSlide>
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" w="100" height="450">
+        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
                 Europa
