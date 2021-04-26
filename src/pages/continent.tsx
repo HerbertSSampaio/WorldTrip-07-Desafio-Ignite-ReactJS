@@ -1,16 +1,16 @@
 import { Header } from "../components/Header";
-import { Flex, Heading, Box, Text, Center, Wrap, WrapItem, Image } from "@chakra-ui/react";
+import { Flex, Heading, Box, Text, Wrap, WrapItem, Image } from "@chakra-ui/react";
 
 export default function Continent() {
     return (
         <>
             <Header />
-            <Flex backgroundImage="url('/europecontinent.png')" bgSize="cover" height="500" flexDir="column" justify="flex-end">
-                <Heading position="relative" color='#F5F8FA' fontSize="48px" fontWeight="600" mb="35px" ml="140">Europa</Heading>
+            <Flex backgroundImage="url('/europecontinent.png')" bgSize={["contain", "cover"]} height={["130", "500"]} flexDir="column" align={["center", "end"]} justify={["center", "flex-end"]}>
+                <Heading position="relative" color='#F5F8FA' fontSize={["28", "48px"]} fontWeight="600" mb={["0", "35px"]} ml={["0", "140"]}>Europa</Heading>
             </Flex>
-            <Flex justify="space-between" pb="2rem" pt="4rem" px="7rem">
-                <Box w="600px">
-                    <Text fontWeight="400" color="#47585B" fontSize="24px" textAlign="justify">
+            <Flex justify="space-between" flexDir={["column", "row"]} pb={["0", "2rem"]} pt={["1rem", "4rem"]} px={["1.5rem", "7rem"]}>
+                <Box flex="50%">
+                    <Text fontWeight="400" color="#47585B" fontSize={["14px", "24px"]} textAlign="justify">
                     A Europa é, por convenção, um dos seis 
                     continentes do mundo. Compreendendo a 
                     península ocidental da Eurásia, a Europa 
@@ -19,26 +19,26 @@ export default function Continent() {
                     mar Cáspio, o Cáucaso, e o mar Negro a sudeste 
                     </Text>
                 </Box>
-                <Flex justify="space-evenly" alignItems="center" w="600px">
-                    <Flex flexDir="column" align="center">
-                        <Heading color="#FFBA08" fontSize="48" fontWeight="600">50</Heading>
-                        <Text color="#47585B" fontSize="24" fontWeight="600">países</Text>
+                <Flex py={["10px", "0"]} justify={["space-between", "space-evenly"]} alignItems={["left", "center"]} flex="50%">
+                    <Flex flexDir="column" align={["left", "center"]}>
+                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">50</Heading>
+                        <Text color="#47585B" fontSize={["18", "24"]} fontWeight={["400", "600"]}>países</Text>
                     </Flex>
-                    <Flex flexDir="column" align="center">
-                        <Heading color="#FFBA08" fontSize="48" fontWeight="600">60</Heading>
-                        <Text color="#47585B" fontSize="24" fontWeight="600">línguas</Text>
+                    <Flex flexDir="column" align={["left", "center"]}>
+                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">60</Heading>
+                        <Text color="#47585B" fontSize={["18", "24"]} fontWeight={["400", "600"]}>línguas</Text>
                     </Flex>
-                    <Flex flexDir="column" align="center">
-                        <Heading color="#FFBA08" fontSize="48" fontWeight="600">27</Heading>
-                        <Text color="#47585B" fontSize="24" fontWeight="600">cidades +100</Text>
+                    <Flex flexDir="column" align={["left", "center"]}>
+                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">27</Heading>
+                        <Text color="#47585B" fontSize={["18", "24"]} fontWeight={["400", "600"]}>cidades +100</Text>
                     </Flex>
                 </Flex>
             </Flex>
-            <Box px="7rem">
-                <Heading py="2rem">Cidades +100</Heading>
-                <Wrap spacing="35px">
-                    <WrapItem>
-                        <Box w="256px">
+            <Box px={["2rem", "7rem"]}>
+                <Heading py={["1rem", "2rem"]}>Cidades +100</Heading>
+                <Wrap spacing={"35px"}>
+                    <WrapItem width={["100%", "auto"]}>
+                        <Box w="256px" mx="auto">
                             <Image src="/citys/londres.png" />
                             <Flex 
                                 justify="space-between"
@@ -74,8 +74,8 @@ export default function Continent() {
                             </Flex>
                         </Box>
                     </WrapItem>
-                    <WrapItem>
-                        <Box w="256px">
+                    <WrapItem width={["100%", "auto"]}>
+                        <Box w="256px" mx="auto">
                             <Image src="/citys/paris.png" />
                             <Flex 
                                 justify="space-between"
@@ -111,8 +111,8 @@ export default function Continent() {
                             </Flex>
                         </Box>
                     </WrapItem>
-                    <WrapItem>
-                        <Box w="256px">
+                    <WrapItem width={["100%", "auto"]}>
+                        <Box w="256px" mx="auto">
                             <Image src="/citys/roma.png" />
                             <Flex 
                                 justify="space-between"
@@ -148,8 +148,8 @@ export default function Continent() {
                             </Flex>
                         </Box>
                     </WrapItem>
-                    <WrapItem>
-                        <Box w="256px">
+                    <WrapItem width={["100%", "auto"]}>
+                        <Box w="256px" mx="auto">
                             <Image src="/citys/praga.png" />
                             <Flex 
                                 justify="space-between"
@@ -185,8 +185,8 @@ export default function Continent() {
                             </Flex>
                         </Box>
                     </WrapItem>
-                    <WrapItem>
-                        <Box w="256px">
+                    <WrapItem width={["100%", "auto"]}>
+                        <Box w="256px" mx="auto">
                             <Image src="/citys/amsterda.png" />
                             <Flex 
                                 justify="space-between"
