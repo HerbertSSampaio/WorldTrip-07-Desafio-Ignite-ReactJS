@@ -4,7 +4,7 @@ import { Flex, Heading, Box, Text, Wrap, WrapItem, Image } from "@chakra-ui/reac
 export default function Continent() {
     return (
         <>
-            <Header />
+            <Header continentPage={true}/>
             <Flex backgroundImage="url('/europecontinent.png')" bgSize={["contain", "cover"]} height={["130", "500"]} flexDir="column" align={["center", "end"]} justify={["center", "flex-end"]}>
                 <Heading position="relative" color='#F5F8FA' fontSize={["28", "48px"]} fontWeight="600" mb={["0", "35px"]} ml={["0", "140"]}>Europa</Heading>
             </Flex>
