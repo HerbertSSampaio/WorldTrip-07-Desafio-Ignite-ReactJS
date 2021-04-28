@@ -6,30 +6,28 @@ export default function Europe() {
     return (
         <>
             <Head>
-                <title>Europa | WorldTrip</title>
+                <title>América do Norte | WorldTrip</title>
             </Head>
             <Header continentPage={true}/>
-            <Flex backgroundImage="url('/continents/europecontinent.png')" bgSize={["contain", "cover"]} height={["130", "500"]} flexDir="column" align={["center", "end"]} justify={["center", "flex-end"]}>
-                <Heading position="relative" color='#F5F8FA' fontSize={["28", "48px"]} fontWeight="600" mb={["0", "35px"]} ml={["0", "140"]}>Europa</Heading>
+            <Flex backgroundImage="url('/continents/northamericacontinent.png')" bgSize={["contain", "cover"]} height={["130", "500"]} flexDir="column" align={["center", "end"]} justify={["center", "flex-end"]}>
+                <Heading position="relative" color='#F5F8FA' fontSize={["28", "48px"]} fontWeight="600" mb={["0", "35px"]} ml={["0", "140"]}>América do Norte</Heading>
             </Flex>
             <Flex justify="space-between" flexDir={["column", "row"]} pb={["0", "2rem"]} pt={["1rem", "4rem"]} px={["1.5rem", "7rem"]}>
                 <Box flex="50%">
                     <Text fontWeight="400" color="#47585B" fontSize={["14px", "24px"]} textAlign="justify">
-                    A Europa é, por convenção, um dos seis 
-                    continentes do mundo. Compreendendo a 
-                    península ocidental da Eurásia, a Europa 
-                    geralmente divide-se da Ásia a leste pela 
-                    divisória de águas dos montes Urais, o rio Ural, o 
-                    mar Cáspio, o Cáucaso, e o mar Negro a sudeste 
+                    A América do Norte está localizada no extremo norte das Américas e
+                    é composta por apenas três países: Estados Unidos, Canadá e México,
+                    além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca,
+                    com representação no parlamento) e Bermudas (dependência britânica).
                     </Text>
                 </Box>
                 <Flex py={["10px", "0"]} justify={["space-between", "space-evenly"]} alignItems={["left", "center"]} flex="50%">
                     <Flex flexDir="column" align={["left", "center"]}>
-                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">50</Heading>
+                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">3</Heading>
                         <Text color="#47585B" fontSize={["18", "24"]} fontWeight={["400", "600"]}>países</Text>
                     </Flex>
                     <Flex flexDir="column" align={["left", "center"]}>
-                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">60</Heading>
+                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">2</Heading>
                         <Text color="#47585B" fontSize={["18", "24"]} fontWeight={["400", "600"]}>línguas</Text>
                     </Flex>
                     <Flex flexDir="column" align={["left", "center"]}>
@@ -43,7 +41,7 @@ export default function Europe() {
                 <Wrap spacing={"35px"}>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/londres.png" />
+                            <Image src="/citys/newyork.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -61,7 +59,7 @@ export default function Europe() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        Londres
+                                        New york
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -69,18 +67,18 @@ export default function Europe() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        Reino Unido
+                                        USA
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/reinounido.svg" />
+                                    <Image src="/flags/usa.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
                     </WrapItem>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/paris.png" />
+                            <Image src="/citys/toronto.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -98,7 +96,7 @@ export default function Europe() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        Paris
+                                        Toronto
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -106,18 +104,18 @@ export default function Europe() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        França
+                                        Canada
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/franca.svg" />
+                                    <Image src="/flags/canada.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
                     </WrapItem>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/roma.png" />
+                            <Image src="/citys/losangeles.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -135,7 +133,7 @@ export default function Europe() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        Roma
+                                        Los Angeles
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -143,18 +141,18 @@ export default function Europe() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        Itália
+                                        USA
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/italia.svg" />
+                                    <Image src="/flags/usa.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
                     </WrapItem>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/praga.png" />
+                            <Image src="/citys/lasvegas.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -172,7 +170,7 @@ export default function Europe() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        Praga
+                                        Las Vegas
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -180,18 +178,18 @@ export default function Europe() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        República Tcheca
+                                        USA
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/republicatcheca.svg" />
+                                    <Image src="/flags/usa.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
                     </WrapItem>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/amsterda.png" />
+                            <Image src="/citys/cancun.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -209,7 +207,7 @@ export default function Europe() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        Amsterdã
+                                        Cancún
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -217,11 +215,11 @@ export default function Europe() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        Holanda
+                                        México
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/holanda.svg" />
+                                    <Image src="/flags/mexico.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
