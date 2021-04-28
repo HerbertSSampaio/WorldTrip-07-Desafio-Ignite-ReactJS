@@ -56,62 +56,82 @@ export default function Home() {
       </SwiperSlide>
       <SwiperSlide>
         <Center bgImage="url('/banners/northamericabanner.png')" bgSize="cover" w="100" height="450">
-            <Box>
-              <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                América do Norte
-              </Text>
-              <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
-                
-              </Text>
-            </Box>
+        <Link href="/northamerica">
+            <a>
+              <Box>
+                <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
+                  América do Norte
+                </Text>
+                <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
+                  
+                </Text>
+              </Box>
+            </a>
+          </Link>
         </Center>
       </SwiperSlide>
       <SwiperSlide>
         <Center bgImage="url('/banners/southamericabanner.png')" bgSize="cover" w="100" height="450">
-            <Box>
-              <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                América do Sul
-              </Text>
-              <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
+          <Link href="/southamerica">
+            <a>
+              <Box>
+                <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
+                  América do Sul
+                </Text>
+                <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
 
-              </Text>
-            </Box>
+                </Text>
+              </Box>
+            </a>
+          </Link>
         </Center>
       </SwiperSlide>
       <SwiperSlide>
         <Center bgImage="url('/banners/asiabanner.png')" bgSize="cover" w="100" height="450">
-            <Box>
-              <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                Ásia
-              </Text>
-              <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
+          <Link href="/asia">
+            <a>
+              <Box>
+                <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
+                  Ásia
+                </Text>
+                <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
 
-              </Text>
-            </Box>
+                </Text>
+              </Box>
+            </a>
+          </Link>
         </Center>
       </SwiperSlide>
       <SwiperSlide>
         <Center bgImage="url('/banners/oceaniabanner.png')" bgSize="cover" w="100" height="450">
-            <Box>
-              <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                Oceania
-              </Text>
-              <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
+          <Link href="/oceania">
+            <a>
+              <Box>
+                <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
+                  Oceania
+                </Text>
+                <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
 
-              </Text>
-            </Box>
+                </Text>
+              </Box>
+            </a>
+          </Link>
         </Center>
       </SwiperSlide>
       <SwiperSlide>
         <Center bgImage="url('/banners/africabanner.png')" bgSize="cover" w="100" height="450">
-            <Box>
-              <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                África
-              </Text>
-              <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
+        <Link href="/africa">
+            <a>
+              <Box>
+                <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
+                  África
+                </Text>
+                <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
 
-              </Text>
-            </Box>
+                </Text>
+              </Box>
+            </a>
+          </Link>
         </Center>
       </SwiperSlide>
     </Swiper>
