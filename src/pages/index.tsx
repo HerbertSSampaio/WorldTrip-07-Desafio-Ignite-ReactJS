@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { Banner } from "../components/Banner";
 import Head from 'next/head';
+import Link from "next/link";
 import { TravelTypes } from "../components/TravelTypes";
 import { Divider, Box, Center, Heading, Text } from "@chakra-ui/react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -38,61 +39,77 @@ export default function Home() {
       onSlideChange={() => console.log('slide change')}
       >
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
+        <Center bgImage="url('/banners/europebanner.png')" bgSize="cover" w="100" height="450">
+          <Link href="/europe">
+            <a>
+              <Box>
+                <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
+                  Europa
+                </Text>
+                <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
+                  O continente mais antigo.
+                </Text>
+              </Box>
+            </a>
+          </Link>
+        </Center>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Center bgImage="url('/banners/northamericabanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                Europa
+                América do Norte
               </Text>
               <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
-                O continente mais antigo.
+                
               </Text>
             </Box>
         </Center>
       </SwiperSlide>
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
+        <Center bgImage="url('/banners/southamericabanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                Europa
+                América do Sul
               </Text>
               <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
-                O continente mais antigo.
+
               </Text>
             </Box>
         </Center>
       </SwiperSlide>
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
+        <Center bgImage="url('/banners/asiabanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                Europa
+                Ásia
               </Text>
               <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
-                O continente mais antigo.
+
               </Text>
             </Box>
         </Center>
       </SwiperSlide>
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
+        <Center bgImage="url('/banners/oceaniabanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                Europa
+                Oceania
               </Text>
               <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
-                O continente mais antigo.
+
               </Text>
             </Box>
         </Center>
       </SwiperSlide>
       <SwiperSlide>
-        <Center bgImage="url('/europebanner.png')" bgSize="cover" w="100" height="450">
+        <Center bgImage="url('/banners/africabanner.png')" bgSize="cover" w="100" height="450">
             <Box>
               <Text textAlign="center" color="#F5F8FA" fontSize="48" fontWeight="700">
-                Europa
+                África
               </Text>
               <Text textAlign="center" color="#DADADA" fontSize="24" fontWeight="700">
-                O continente mais antigo.
+
               </Text>
             </Box>
         </Center>
