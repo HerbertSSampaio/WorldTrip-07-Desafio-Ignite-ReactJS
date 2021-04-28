@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
 import { Banner } from "../components/Banner";
+import Head from 'next/head';
 import { TravelTypes } from "../components/TravelTypes";
 import { Divider, Box, Center, Heading, Text } from "@chakra-ui/react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -14,6 +15,9 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Home | WorldTrip</title>
+      </Head>
       <Header />
       <Banner />
       <TravelTypes />

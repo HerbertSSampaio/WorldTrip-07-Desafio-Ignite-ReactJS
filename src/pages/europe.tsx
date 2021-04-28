@@ -1,9 +1,13 @@
 import { Header } from "../components/Header";
+import Head from 'next/head';
 import { Flex, Heading, Box, Text, Wrap, WrapItem, Image } from "@chakra-ui/react";
 
-export default function Continent() {
+export default function Europe() {
     return (
         <>
+            <Head>
+                <title>Europe | WorldTrip</title>
+            </Head>
             <Header continentPage={true}/>
             <Flex backgroundImage="url('/europecontinent.png')" bgSize={["contain", "cover"]} height={["130", "500"]} flexDir="column" align={["center", "end"]} justify={["center", "flex-end"]}>
                 <Heading position="relative" color='#F5F8FA' fontSize={["28", "48px"]} fontWeight="600" mb={["0", "35px"]} ml={["0", "140"]}>Europa</Heading>
