@@ -2,7 +2,7 @@ import { Header } from "../components/Header";
 import Head from 'next/head';
 import { Flex, Heading, Box, Text, Wrap, WrapItem, Image } from "@chakra-ui/react";
 
-export default function Europe() {
+export default function SouthAmerica() {
     return (
         <>
             <Head>

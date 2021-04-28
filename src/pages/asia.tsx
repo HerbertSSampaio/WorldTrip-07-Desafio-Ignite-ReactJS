@@ -2,32 +2,31 @@ import { Header } from "../components/Header";
 import Head from 'next/head';
 import { Flex, Heading, Box, Text, Wrap, WrapItem, Image } from "@chakra-ui/react";
 
-export default function NorthAmerica() {
+export default function Asia() {
     return (
         <>
             <Head>
-                <title>América do Norte | WorldTrip</title>
+                <title>Ásia | WorldTrip</title>
             </Head>
             <Header continentPage={true}/>
-            <Flex backgroundImage="url('/continents/northamericacontinent.png')" bgSize={["contain", "cover"]} height={["130", "500"]} flexDir="column" align={["center", "end"]} justify={["center", "flex-end"]}>
-                <Heading position="relative" color='#F5F8FA' fontSize={["28", "48px"]} fontWeight="600" mb={["0", "35px"]} ml={["0", "140"]}>América do Norte</Heading>
+            <Flex backgroundImage="url('/continents/continentasia.png')" bgSize={["contain", "cover"]} height={["130", "500"]} flexDir="column" align={["center", "end"]} justify={["center", "flex-end"]}>
+                <Heading position="relative" color='#F5F8FA' fontSize={["28", "48px"]} fontWeight="600" mb={["0", "35px"]} ml={["0", "140"]}>Ásia</Heading>
             </Flex>
             <Flex justify="space-between" flexDir={["column", "row"]} pb={["0", "2rem"]} pt={["1rem", "4rem"]} px={["1.5rem", "7rem"]}>
                 <Box flex="50%">
                     <Text fontWeight="400" color="#47585B" fontSize={["14px", "24px"]} textAlign="justify">
-                    A América do Norte está localizada no extremo norte das Américas e
-                    é composta por apenas três países: Estados Unidos, Canadá e México,
-                    além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca,
-                    com representação no parlamento) e Bermudas (dependência britânica).
+                    A Ásia é o maior continente em área terrestre do mundo, estando boa parte do continente localizado no Hemisfério Norte.
+                    Além de ser o mais extenso, é também o mais populoso, habitando nele cerca de três quintos da população mundial.
+                    A Ásia é multicultural, abrigando diversas culturas, etnias, religiões e tradições.
                     </Text>
                 </Box>
                 <Flex py={["10px", "0"]} justify={["space-between", "space-evenly"]} alignItems={["left", "center"]} flex="50%">
                     <Flex flexDir="column" align={["left", "center"]}>
-                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">3</Heading>
+                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">51</Heading>
                         <Text color="#47585B" fontSize={["18", "24"]} fontWeight={["400", "600"]}>países</Text>
                     </Flex>
                     <Flex flexDir="column" align={["left", "center"]}>
-                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">2</Heading>
+                        <Heading color="#FFBA08" fontSize={["24", "48"]} fontWeight="600">2.301</Heading>
                         <Text color="#47585B" fontSize={["18", "24"]} fontWeight={["400", "600"]}>línguas</Text>
                     </Flex>
                     <Flex flexDir="column" align={["left", "center"]}>
@@ -41,7 +40,7 @@ export default function NorthAmerica() {
                 <Wrap spacing={"35px"}>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/newyork.png" />
+                            <Image src="/citys/honkkong.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -59,7 +58,7 @@ export default function NorthAmerica() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        New york
+                                        Hong Kong
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -67,18 +66,18 @@ export default function NorthAmerica() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        USA
+                                        China
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/usa.svg" width="30px" height="30px"/>
+                                    <Image src="/flags/china.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
                     </WrapItem>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/toronto.png" />
+                            <Image src="/citys/bangkok.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -96,7 +95,7 @@ export default function NorthAmerica() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        Toronto
+                                        Bangkok
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -104,18 +103,18 @@ export default function NorthAmerica() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        Canada
+                                        Tailândia
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/canada.svg" width="30px" height="30px"/>
+                                    <Image src="/flags/tailandia.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
                     </WrapItem>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/losangeles.png" />
+                            <Image src="/citys/kualalumpur.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -133,7 +132,7 @@ export default function NorthAmerica() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        Los Angeles
+                                        Kuala lumpur
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -141,18 +140,18 @@ export default function NorthAmerica() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        USA
+                                        Malásia
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/usa.svg" width="30px" height="30px"/>
+                                    <Image src="/flags/malasia.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
                     </WrapItem>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/lasvegas.png" />
+                            <Image src="/citys/singapore.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -170,7 +169,7 @@ export default function NorthAmerica() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        Las Vegas
+                                        Singapura
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -178,18 +177,18 @@ export default function NorthAmerica() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        USA
+                                        Singapura
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/usa.svg" width="30px" height="30px"/>
+                                    <Image src="/flags/singapura.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
                     </WrapItem>
                     <WrapItem width={["100%", "auto"]}>
                         <Box w="256px" mx="auto">
-                            <Image src="/citys/cancun.png" />
+                            <Image src="/citys/dubai.png" />
                             <Flex 
                                 justify="space-between"
                                 align="center"
@@ -207,7 +206,7 @@ export default function NorthAmerica() {
                                         fontWeight="600" 
                                         color="#47585B"
                                     >
-                                        Cancún
+                                        Dubai
                                     </Heading>
                                     <Text
                                         fontFamily="Barlow"
@@ -215,11 +214,11 @@ export default function NorthAmerica() {
                                         fontSize="1rem"
                                         color="#999999"
                                     >
-                                        México
+                                        Emirados Árabes Unidos
                                     </Text>
                                 </Box>
                                 <Box>
-                                    <Image src="/flags/mexico.svg" width="30px" height="30px"/>
+                                    <Image src="/flags/emirados.svg" width="30px" height="30px"/>
                                 </Box>
                             </Flex>
                         </Box>
